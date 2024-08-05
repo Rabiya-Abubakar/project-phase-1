@@ -1,0 +1,140 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('image/sky.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center; /* Center the text horizontally */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add some padding if needed */
+    font-size: 2.5em; /* Adjust font size */
+    color: #ffffff; /* White text color */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    position: relative; /* Position relative to its normal flow */
+    top: 0; /* Align to the top of the page */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Style the flight widget to be oval-shaped */
+.flight-widget {
+    background: linear-gradient(135deg, #87CEFA, #ffffff); /* Light blue to white gradient */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px; /* Optional: Set a maximum width for larger screens */
+    border-radius: 50px; /* Creates an oval shape */
+    box-shadow: 0 0 10px rgba(20, 20, 20, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #1f2020; /* Light blue border */
+}
+
+.flight-widget label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #141414; /* Light blue text color */
+    font-weight: bold;
+}
+
+.flight-widget input, .flight-widget select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #ffffff; /* White background for inputs */
+}
+
+button {
+    background-color: #87CEFA; /* Light blue background for button */
+    color: #333; /* Dark text color for contrast */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #00BFFF; /* Slightly darker light blue for hover effect */
+}
+
+#flight-results {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.flight-card {
+    background: #F0F8FF; /* Alice blue background */
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #87CEFA; /* Light blue border */
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    color: #333; /* Darker text color for readability */
+}
+
+.flight-card div {
+    margin-bottom: 10px;
+}
+
+.selected-flights-container {
+    margin-top: 20px;
+}
+
+.total-cost {
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: hsl(180, 3%, 6%); /* Light blue color */
+}
+
+#booking-details {
+    display: none;
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    background-color: #F0F8FF; /* Alice blue background */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#passenger-details {
+    margin-bottom: 20px;
+}
+
+#passenger-details label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #87CEFA; /* Light blue text color */
+    font-weight: bold;
+}
+
+#passenger-details input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff; /* White background */
+}
+
+#confirm-booking {
+    display: none;
+}
+
+#booking-details .section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}

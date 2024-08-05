@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>PHASE-1 PROJECT FlexibleFly.com</h1>
+    <div class="flight-widget">
+        <label for="flight-type">Flight Type:</label>
+        <select id="flight-type">
+            <option value="one-way">One Way</option>
+            <option value="return">Return</option>
+        </select>
+
+        <label for="departure-station">Departure Station:</label>
+        <input list="cities" id="departure-station">
+        
+        <label for="arrival-station">Arrival Station:</label>
+        <input list="cities" id="arrival-station">
+
+        <datalist id="cities">
+            <option value="Nairobi">
+            <option value="Mombasa">
+            <option value="Kisumu">
+            <option value="Eldoret">
+            <option value="Nakuru">
+            <option value="Malindi">
+            <option value="Lamu">
+            <option value="Diani">
+        </datalist>
+
+        <label for="departure-date">Departure Date:</label>
+        <input type="date" id="departure-date">
+
+        <div id="return-date-container" style="display:none;">
+            <label for="return-date">Return Date:</label>
+            <input type="date" id="return-date">
+        </div>
+
+        <label for="adults">Adults:</label>
+        <input type="number" id="adults" min="1" value="1">
+
+        <label for="children">Children:</label>
+        <input type="number" id="children" min="0" value="0">
+
+        <label for="currency">Currency:</label>
+        <input type="text" id="currency" value="KES" readonly>
+
+        <button id="search-flights">Search Flights</button>
+    </div>
+
+    <div id="flight-results"></div>
+
+    <!-- Passenger and Payment Details -->
+    <div id="booking-details" style="display:none;">
+        <div id="passenger-details"></div>
+        <div id="payment-details">
+            <h2>Payment Details</h2>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your Email-Adress">
+
+            <label for="credit-card-number">Credit Card Number:</label>
+            <input type="text" id="credit-card-number" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" required>
+
+            <label for="expiration-date">Expiration Date:</label>
+            <input type="month" id="expiration-date" required>
+        </div>
+        <button id="confirm-booking">Confirm Booking</button>
+    </div>
+
+    <div id="confirmation-message" style="display: none;">
+        <h2>Booking Confirmed!</h2>
+        <p>Your booking has been successfully confirmed. Thank you for choosing our service.</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

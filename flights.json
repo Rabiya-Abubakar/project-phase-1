@@ -1,0 +1,742 @@
+[
+    {
+        "id": 1,
+        "flightNumber": "FL123",
+        "departure": "Nairobi",
+        "arrival": "Mombasa",
+        "departureTime": "2024-08-05T08:00:00Z",
+        "arrivalTime": "2024-08-05T10:30:00Z",
+        "price": 12000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 2,
+        "flightNumber": "FL124",
+        "departure": "Nairobi",
+        "arrival": "Mombasa",
+        "departureTime": "2024-08-05T18:00:00Z",
+        "arrivalTime": "2024-08-05T20:30:00Z",
+        "price": 12500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 3,
+        "flightNumber": "FL125",
+        "departure": "Mombasa",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-05T09:00:00Z",
+        "arrivalTime": "2024-08-05T11:30:00Z",
+        "price": 12000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 4,
+        "flightNumber": "FL126",
+        "departure": "Mombasa",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-05T19:00:00Z",
+        "arrivalTime": "2024-08-05T21:30:00Z",
+        "price": 12500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 5,
+        "flightNumber": "FL127",
+        "departure": "Nairobi",
+        "arrival": "Kisumu",
+        "departureTime": "2024-08-05T07:00:00Z",
+        "arrivalTime": "2024-08-05T08:30:00Z",
+        "price": 10000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 6,
+        "flightNumber": "FL128",
+        "departure": "Nairobi",
+        "arrival": "Kisumu",
+        "departureTime": "2024-08-05T17:00:00Z",
+        "arrivalTime": "2024-08-05T18:30:00Z",
+        "price": 10500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 7,
+        "flightNumber": "FL129",
+        "departure": "Kisumu",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-05T08:00:00Z",
+        "arrivalTime": "2024-08-05T09:30:00Z",
+        "price": 10000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 8,
+        "flightNumber": "FL130",
+        "departure": "Kisumu",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-05T18:00:00Z",
+        "arrivalTime": "2024-08-05T19:30:00Z",
+        "price": 10500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 9,
+        "flightNumber": "FL131",
+        "departure": "Nairobi",
+        "arrival": "Eldoret",
+        "departureTime": "2024-08-05T10:00:00Z",
+        "arrivalTime": "2024-08-05T11:30:00Z",
+        "price": 11000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 10,
+        "flightNumber": "FL132",
+        "departure": "Nairobi",
+        "arrival": "Eldoret",
+        "departureTime": "2024-08-05T20:00:00Z",
+        "arrivalTime": "2024-08-05T21:30:00Z",
+        "price": 11500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 11,
+        "flightNumber": "FL133",
+        "departure": "Eldoret",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-05T11:00:00Z",
+        "arrivalTime": "2024-08-05T12:30:00Z",
+        "price": 11000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 12,
+        "flightNumber": "FL134",
+        "departure": "Eldoret",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-05T21:00:00Z",
+        "arrivalTime": "2024-08-05T22:30:00Z",
+        "price": 11500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 13,
+        "flightNumber": "FL123",
+        "departure": "Nairobi",
+        "arrival": "Mombasa",
+        "departureTime": "2024-08-06T08:00:00Z",
+        "arrivalTime": "2024-08-06T10:30:00Z",
+        "price": 12000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 14,
+        "flightNumber": "FL124",
+        "departure": "Nairobi",
+        "arrival": "Mombasa",
+        "departureTime": "2024-08-06T18:00:00Z",
+        "arrivalTime": "2024-08-06T20:30:00Z",
+        "price": 12500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 15,
+        "flightNumber": "FL125",
+        "departure": "Mombasa",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-06T09:00:00Z",
+        "arrivalTime": "2024-08-06T11:30:00Z",
+        "price": 12000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 16,
+        "flightNumber": "FL126",
+        "departure": "Mombasa",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-06T19:00:00Z",
+        "arrivalTime": "2024-08-06T21:30:00Z",
+        "price": 12500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 17,
+        "flightNumber": "FL127",
+        "departure": "Nairobi",
+        "arrival": "Kisumu",
+        "departureTime": "2024-08-06T07:00:00Z",
+        "arrivalTime": "2024-08-06T08:30:00Z",
+        "price": 10000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 18,
+        "flightNumber": "FL128",
+        "departure": "Nairobi",
+        "arrival": "Kisumu",
+        "departureTime": "2024-08-06T17:00:00Z",
+        "arrivalTime": "2024-08-06T18:30:00Z",
+        "price": 10500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 19,
+        "flightNumber": "FL129",
+        "departure": "Kisumu",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-06T08:00:00Z",
+        "arrivalTime": "2024-08-06T09:30:00Z",
+        "price": 10000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 20,
+        "flightNumber": "FL130",
+        "departure": "Kisumu",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-06T18:00:00Z",
+        "arrivalTime": "2024-08-06T19:30:00Z",
+        "price": 10500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 21,
+        "flightNumber": "FL131",
+        "departure": "Nairobi",
+        "arrival": "Eldoret",
+        "departureTime": "2024-08-06T10:00:00Z",
+        "arrivalTime": "2024-08-06T11:30:00Z",
+        "price": 11000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 22,
+        "flightNumber": "FL132",
+        "departure": "Nairobi",
+        "arrival": "Eldoret",
+        "departureTime": "2024-08-06T20:00:00Z",
+        "arrivalTime": "2024-08-06T21:30:00Z",
+        "price": 11500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 23,
+        "flightNumber": "FL133",
+        "departure": "Eldoret",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-06T11:00:00Z",
+        "arrivalTime": "2024-08-06T12:30:00Z",
+        "price": 11000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 24,
+        "flightNumber": "FL134",
+        "departure": "Eldoret",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-06T21:00:00Z",
+        "arrivalTime": "2024-08-06T22:30:00Z",
+        "price": 11500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 25,
+        "flightNumber": "FL123",
+        "departure": "Nairobi",
+        "arrival": "Mombasa",
+        "departureTime": "2024-08-07T08:00:00Z",
+        "arrivalTime": "2024-08-07T10:30:00Z",
+        "price": 12000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 26,
+        "flightNumber": "FL124",
+        "departure": "Nairobi",
+        "arrival": "Mombasa",
+        "departureTime": "2024-08-07T18:00:00Z",
+        "arrivalTime": "2024-08-07T20:30:00Z",
+        "price": 12500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 27,
+        "flightNumber": "FL125",
+        "departure": "Mombasa",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-07T09:00:00Z",
+        "arrivalTime": "2024-08-07T11:30:00Z",
+        "price": 12000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 28,
+        "flightNumber": "FL126",
+        "departure": "Mombasa",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-07T19:00:00Z",
+        "arrivalTime": "2024-08-07T21:30:00Z",
+        "price": 12500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 29,
+        "flightNumber": "FL127",
+        "departure": "Nairobi",
+        "arrival": "Kisumu",
+        "departureTime": "2024-08-07T07:00:00Z",
+        "arrivalTime": "2024-08-07T08:30:00Z",
+        "price": 10000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 30,
+        "flightNumber": "FL128",
+        "departure": "Nairobi",
+        "arrival": "Kisumu",
+        "departureTime": "2024-08-07T17:00:00Z",
+        "arrivalTime": "2024-08-07T18:30:00Z",
+        "price": 10500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 31,
+        "flightNumber": "FL129",
+        "departure": "Kisumu",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-07T08:00:00Z",
+        "arrivalTime": "2024-08-07T09:30:00Z",
+        "price": 10000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 32,
+        "flightNumber": "FL130",
+        "departure": "Kisumu",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-07T18:00:00Z",
+        "arrivalTime": "2024-08-07T19:30:00Z",
+        "price": 10500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 33,
+        "flightNumber": "FL131",
+        "departure": "Nairobi",
+        "arrival": "Eldoret",
+        "departureTime": "2024-08-07T10:00:00Z",
+        "arrivalTime": "2024-08-07T11:30:00Z",
+        "price": 11000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 34,
+        "flightNumber": "FL132",
+        "departure": "Nairobi",
+        "arrival": "Eldoret",
+        "departureTime": "2024-08-07T20:00:00Z",
+        "arrivalTime": "2024-08-07T21:30:00Z",
+        "price": 11500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 35,
+        "flightNumber": "FL133",
+        "departure": "Eldoret",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-07T11:00:00Z",
+        "arrivalTime": "2024-08-07T12:30:00Z",
+        "price": 11000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 36,
+        "flightNumber": "FL134",
+        "departure": "Eldoret",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-07T21:00:00Z",
+        "arrivalTime": "2024-08-07T22:30:00Z",
+        "price": 11500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 37,
+        "flightNumber": "FL123",
+        "departure": "Nairobi",
+        "arrival": "Mombasa",
+        "departureTime": "2024-08-08T08:00:00Z",
+        "arrivalTime": "2024-08-08T10:30:00Z",
+        "price": 12000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 38,
+        "flightNumber": "FL124",
+        "departure": "Nairobi",
+        "arrival": "Mombasa",
+        "departureTime": "2024-08-08T18:00:00Z",
+        "arrivalTime": "2024-08-08T20:30:00Z",
+        "price": 12500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 39,
+        "flightNumber": "FL125",
+        "departure": "Mombasa",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-08T09:00:00Z",
+        "arrivalTime": "2024-08-08T11:30:00Z",
+        "price": 12000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 40,
+        "flightNumber": "FL126",
+        "departure": "Mombasa",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-08T19:00:00Z",
+        "arrivalTime": "2024-08-08T21:30:00Z",
+        "price": 12500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 41,
+        "flightNumber": "FL127",
+        "departure": "Nairobi",
+        "arrival": "Kisumu",
+        "departureTime": "2024-08-08T07:00:00Z",
+        "arrivalTime": "2024-08-08T08:30:00Z",
+        "price": 10000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 42,
+        "flightNumber": "FL128",
+        "departure": "Nairobi",
+        "arrival": "Kisumu",
+        "departureTime": "2024-08-08T17:00:00Z",
+        "arrivalTime": "2024-08-08T18:30:00Z",
+        "price": 10500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 43,
+        "flightNumber": "FL129",
+        "departure": "Kisumu",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-08T08:00:00Z",
+        "arrivalTime": "2024-08-08T09:30:00Z",
+        "price": 10000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 44,
+        "flightNumber": "FL130",
+        "departure": "Kisumu",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-08T18:00:00Z",
+        "arrivalTime": "2024-08-08T19:30:00Z",
+        "price": 10500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 45,
+        "flightNumber": "FL131",
+        "departure": "Nairobi",
+        "arrival": "Eldoret",
+        "departureTime": "2024-08-08T10:00:00Z",
+        "arrivalTime": "2024-08-08T11:30:00Z",
+        "price": 11000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 46,
+        "flightNumber": "FL132",
+        "departure": "Nairobi",
+        "arrival": "Eldoret",
+        "departureTime": "2024-08-08T20:00:00Z",
+        "arrivalTime": "2024-08-08T21:30:00Z",
+        "price": 11500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 47,
+        "flightNumber": "FL133",
+        "departure": "Eldoret",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-08T11:00:00Z",
+        "arrivalTime": "2024-08-08T12:30:00Z",
+        "price": 11000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 48,
+        "flightNumber": "FL134",
+        "departure": "Eldoret",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-08T21:00:00Z",
+        "arrivalTime": "2024-08-08T22:30:00Z",
+        "price": 11500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 49,
+        "flightNumber": "FL123",
+        "departure": "Nairobi",
+        "arrival": "Mombasa",
+        "departureTime": "2024-08-09T08:00:00Z",
+        "arrivalTime": "2024-08-09T10:30:00Z",
+        "price": 12000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 50,
+        "flightNumber": "FL124",
+        "departure": "Nairobi",
+        "arrival": "Mombasa",
+        "departureTime": "2024-08-09T18:00:00Z",
+        "arrivalTime": "2024-08-09T20:30:00Z",
+        "price": 12500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 51,
+        "flightNumber": "FL125",
+        "departure": "Mombasa",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-09T09:00:00Z",
+        "arrivalTime": "2024-08-09T11:30:00Z",
+        "price": 12000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 52,
+        "flightNumber": "FL126",
+        "departure": "Mombasa",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-09T19:00:00Z",
+        "arrivalTime": "2024-08-09T21:30:00Z",
+        "price": 12500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 53,
+        "flightNumber": "FL127",
+        "departure": "Nairobi",
+        "arrival": "Kisumu",
+        "departureTime": "2024-08-09T07:00:00Z",
+        "arrivalTime": "2024-08-09T08:30:00Z",
+        "price": 10000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 54,
+        "flightNumber": "FL128",
+        "departure": "Nairobi",
+        "arrival": "Kisumu",
+        "departureTime": "2024-08-09T17:00:00Z",
+        "arrivalTime": "2024-08-09T18:30:00Z",
+        "price": 10500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 55,
+        "flightNumber": "FL129",
+        "departure": "Kisumu",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-09T08:00:00Z",
+        "arrivalTime": "2024-08-09T09:30:00Z",
+        "price": 10000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 56,
+        "flightNumber": "FL130",
+        "departure": "Kisumu",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-09T18:00:00Z",
+        "arrivalTime": "2024-08-09T19:30:00Z",
+        "price": 10500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 57,
+        "flightNumber": "FL131",
+        "departure": "Nairobi",
+        "arrival": "Eldoret",
+        "departureTime": "2024-08-09T10:00:00Z",
+        "arrivalTime": "2024-08-09T11:30:00Z",
+        "price": 11000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 58,
+        "flightNumber": "FL132",
+        "departure": "Nairobi",
+        "arrival": "Eldoret",
+        "departureTime": "2024-08-09T20:00:00Z",
+        "arrivalTime": "2024-08-09T21:30:00Z",
+        "price": 11500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 59,
+        "flightNumber": "FL133",
+        "departure": "Eldoret",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-09T11:00:00Z",
+        "arrivalTime": "2024-08-09T12:30:00Z",
+        "price": 11000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 60,
+        "flightNumber": "FL134",
+        "departure": "Eldoret",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-09T21:00:00Z",
+        "arrivalTime": "2024-08-09T22:30:00Z",
+        "price": 11500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 61,
+        "flightNumber": "FL123",
+        "departure": "Nairobi",
+        "arrival": "Mombasa",
+        "departureTime": "2024-08-10T08:00:00Z",
+        "arrivalTime": "2024-08-10T10:30:00Z",
+        "price": 12000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 62,
+        "flightNumber": "FL124",
+        "departure": "Nairobi",
+        "arrival": "Mombasa",
+        "departureTime": "2024-08-10T18:00:00Z",
+        "arrivalTime": "2024-08-10T20:30:00Z",
+        "price": 12500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 63,
+        "flightNumber": "FL125",
+        "departure": "Mombasa",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-10T09:00:00Z",
+        "arrivalTime": "2024-08-10T11:30:00Z",
+        "price": 12000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 64,
+        "flightNumber": "FL126",
+        "departure": "Mombasa",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-10T19:00:00Z",
+        "arrivalTime": "2024-08-10T21:30:00Z",
+        "price": 12500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 65,
+        "flightNumber": "FL127",
+        "departure": "Nairobi",
+        "arrival": "Kisumu",
+        "departureTime": "2024-08-10T07:00:00Z",
+        "arrivalTime": "2024-08-10T08:30:00Z",
+        "price": 10000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 66,
+        "flightNumber": "FL128",
+        "departure": "Nairobi",
+        "arrival": "Kisumu",
+        "departureTime": "2024-08-10T17:00:00Z",
+        "arrivalTime": "2024-08-10T18:30:00Z",
+        "price": 10500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 67,
+        "flightNumber": "FL129",
+        "departure": "Kisumu",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-10T08:00:00Z",
+        "arrivalTime": "2024-08-10T09:30:00Z",
+        "price": 10000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 68,
+        "flightNumber": "FL130",
+        "departure": "Kisumu",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-10T18:00:00Z",
+        "arrivalTime": "2024-08-10T19:30:00Z",
+        "price": 10500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 69,
+        "flightNumber": "FL131",
+        "departure": "Nairobi",
+        "arrival": "Eldoret",
+        "departureTime": "2024-08-10T10:00:00Z",
+        "arrivalTime": "2024-08-10T11:30:00Z",
+        "price": 11000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 70,
+        "flightNumber": "FL132",
+        "departure": "Nairobi",
+        "arrival": "Eldoret",
+        "departureTime": "2024-08-10T20:00:00Z",
+        "arrivalTime": "2024-08-10T21:30:00Z",
+        "price": 11500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 71,
+        "flightNumber": "FL133",
+        "departure": "Eldoret",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-10T11:00:00Z",
+        "arrivalTime": "2024-08-10T12:30:00Z",
+        "price": 11000.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 72,
+        "flightNumber": "FL134",
+        "departure": "Eldoret",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-10T21:00:00Z",
+        "arrivalTime": "2024-08-10T22:30:00Z",
+        "price": 11500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 73,
+        "flightNumber": "FL135",
+        "departure": "Nairobi",
+        "arrival": "Lamu",
+        "departureTime": "2024-08-10T10:00:00Z",
+        "arrivalTime": "2024-08-10T11:15:00Z",
+        "price": 11500.00,
+        "seatsAvailable": 100
+    },
+    {
+        "id": 74,
+        "flightNumber": "FL136",
+        "departure": "Lamu",
+        "arrival": "Nairobi",
+        "departureTime": "2024-08-10T12:00:00Z",
+        "arrivalTime": "2024-08-10T13:15:00Z",
+        "price": 11500.00,
+        "seatsAvailable": 100
+    }
+]
